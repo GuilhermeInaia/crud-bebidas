@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--pattern="[a-z] {3}"-->
+
+<body>
+    <h1>Nova Bebida</h1>
+    <hr>
+
+    <form action="">
+        <label for="marca">Marca</label>
+        <select id="marca">
+            <option disabled selected>--Selecione--</option>
+            <option>Ypioca</option>
+            <option>Colonial</option>
+            <option>Sapupara</option>
+        </select>
+
+        <label for="descrição">Descrição</label>
+        <input type="text" id="decrição" placeholder="Digite aqui">
+        <br>
+
+        <label for="porcentagem">Porcentagem de Alcool</label>
+        <input type="number" min="0" max="100">
+
+
+
+        <p>Tipo</p>
+        <label for="cachaca">Cachaça</label>
+        <input id="cachaca" type="radio" name="tipo" value="Whisky">
+        <br>
+
+        <label for="cerveja">Cachaça</label>
+        <input id="cerveja" type="radio" name="tipo" value="Cerveja">
+        <br>
+
+
+        <button>Salva</button>
+    </form>
+</body>
+
+</html>

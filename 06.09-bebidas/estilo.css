@@ -1,0 +1,71 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    background-color: #333;
+    color: #ffffff;
+}
+
+img {
+    width: 50px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #333;
+    text-align: center;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+    height: 40px;
+}
+
+
+button {
+    border-radius: 3px;
+    border: 0;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+td:last-child {
+    text-align: right;
+    padding-right: 5px;
+}
+
+button:first-child {
+    background-color: #ffcc00;
+}
+
+button:last-child {
+    background-color: #ff0000;
+}
+
+/* nth-child: Escolher uma tag especifica.
+Odd: pares
+Even: impares*/
+tbody > tr:nth-child(odd) {
+    background-color: #ededed;
+}
+
+tbody > tr:hover > td{
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+td:last-child{
+    text-decoration: none !important;
+}
